@@ -1,6 +1,6 @@
 # HashingFiles
 
-##Running the program 
+## Running the program 
 
 The textfile that is being used MUST be located in the same folder as the main program as it stands right now or the file will not be found
 
