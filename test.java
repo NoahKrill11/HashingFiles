@@ -14,7 +14,6 @@ private static String getHash(final String hashtype, final File fileName)
 	StringBuilder stringBuild = new StringBuilder();
 	if(fileName.exists())
 	{
-		
 		try
 		{
 			//getting the stream of the file content
@@ -45,9 +44,7 @@ private static String getHash(final String hashtype, final File fileName)
 	}
 	else
 	{
-
 		return "false";
-
 	}
 	return stringBuild.toString();
 }
@@ -85,6 +82,5 @@ public static void main(String[] args)
 		Scanner scan = new Scanner(System.in);
 		File file = new File(scan.nextLine());
 		output(file);
-		
 	}
 }
